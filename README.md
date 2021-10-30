@@ -185,5 +185,5 @@ Using the two intersection points, the extrapolated line is drawn on the origina
 
 ## Video Output
 
-Check out the restulting video! You can download the video here: [./test_videos_output/solidWhiteRight.mp4](./test_videos_output/solidWhiteRight.mp4)
+Video output of the project can be seen here : https://line-detector.herokuapp.com
 
