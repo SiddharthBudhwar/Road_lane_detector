@@ -8,13 +8,6 @@ One of the most fundamental tasks in computer vision for autonomous driving is l
 In this project I implemented a computer vision algorithm that processes real data recorded with the front facing camera of a vehicle driving on a California highway.
 The result is a processed video that highlights the lane lines on the paved road. 
 
-With the positions of the lane lines identified, the vehicle's offset from the lane's center can be calculated and feed a PD controller to compute the necessary steering angle. While only the lane lines detection is the scope of this project, my steering algorithm is implemented [here](https://github.com/OanaGaskey/PID-Controller)  
- 
-This project is implemented in Python and uses OpenCV image processing library. The source code can be found in the `finding_lane_lines.ipynb` Jupyter Notebook file above. 
-The starter code for this project is provided by Udacity and can be found [here](https://github.com/udacity/CarND-LaneLines-P1).
-
-
-
 ## Define Color Masks
 
 Looking at the video recording from the car, one of the most defining characteristics of lane lines is that they are white or yellow against a darker road color.
